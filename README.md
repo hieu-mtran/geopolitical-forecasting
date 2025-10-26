@@ -23,12 +23,6 @@ The analysis evaluates which domestic features most influence international alig
 
 ---
 
-## Data Sources
-- **Database of Political Institutions (DPI)** — [Inter-American Development Bank (IDB)](https://www.iadb.org/en/knowledge-resources/research-idb/research-datasets/database-political-institutions)  
-- **UNGA Ideal Points** — [Voeten, Erik. 2009. *United Nations General Assembly Ideal Points.* Harvard Dataverse.](https://doi.org/10.7910/DVN/LEJUQZ)
-
----
-
 ## Repository Contents
 | File / Folder | Description |
 |----------------|--------------|
@@ -43,7 +37,7 @@ The analysis evaluates which domestic features most influence international alig
 - **Temporal and institutional factors** (especially `year` and `checks`) explain more variance in UN alignment than short-term electoral variables.  
 - **Ideology changes** (`ideology_changed`) have low predictive weight, implying that foreign policy continuity often persists across elections.  
 - **Systematic residuals** show under-prediction for highly aligned states (e.g., United States, Poland) and over-prediction for less aligned states (e.g., India, Brazil).  
-- Residuals increase after 2016, suggesting a **structural shift** in global alignment—possibly associated with the **rise of populist and nationalist governments** and renewed geopolitical polarization.
+- Residuals increase after 2016, suggesting a **structural shift** in global alignment, possibly associated with the **rise of populist and nationalist governments** and renewed geopolitical polarization.
 
 ---
 
@@ -70,4 +64,5 @@ I would like to express my sincere gratitude to **Dr. Christian Achrainer** for 
 ---
 
 ## References
-Bailey, Michael A., Anton Strezhnev, and Erik Voeten. 2017. *Estimating Dynamic State Preferences from United Natio*
+Voeten, Erik. 2009. *[United Nations General Assembly Ideal Points](https://doi.org/10.7910/DVN/LEJUQZ).* Harvard Dataverse.  
+Inter-American Development Bank (IDB). 2023. *[Database of Political Institutions (DPI)](https://www.iadb.org/en/knowledge-resources/research-idb/research-datasets/database-political-institutions).*
